@@ -1,4 +1,4 @@
-## System Requirement
+# System Requirement
 For achieving a dual polarized patch antenna , it’s required to have two orthogonal ports to feed 
 the patch but to achieve this it is also required to have a square patch to have the same 
 characteristics and specifications in both ports otherwise the width and length of the patch in 
@@ -13,10 +13,10 @@ preferable for the antenna to be radiative in as it has pure real impedance, It 
 achieve high isolation between the two ports to increase the XPD.
 
 
-## Antenna Design
+# Antenna Design
 ![WhatsApp Image 2023-12-26 at 21 10 46_09af1cb2](https://github.com/faatthy/Dual-Polarized-Microstrip-Patch-antenna/assets/110846097/22e172c8-b62d-4850-8974-6825729323d7)
 
-##Antenna Layout
+# Antenna Layout
 ![image](https://github.com/faatthy/Dual-Polarized-Microstrip-Patch-antenna/assets/110846097/33d3d963-0b62-4843-8304-b6711b335164)
 ## Results
 *
