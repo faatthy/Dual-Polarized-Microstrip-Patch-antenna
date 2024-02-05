@@ -1,0 +1,6 @@
+$begin 'CacheDataVersion'
+	DataVersion=100
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	Cp='0.5mm'
+$end 'VariableValues'

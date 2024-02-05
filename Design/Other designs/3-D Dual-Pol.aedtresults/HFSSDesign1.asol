@@ -1,0 +1,238 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002023, month=000000000012, day=000000000013, hour=000000000019, min=000000000012, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000009141, lin=000000000216, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=7382
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=7523
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='D=\'0.10000000000000001mm\'', ID=7017)
+		Map(V='D=\'0.20000000000000001mm\'', ID=7020)
+		Map(V='D=\'0.29999999999999999mm\'', ID=7022)
+		Map(V='D=\'0.40000000000000002mm\'', ID=7024)
+		Map(V='D=\'0.59999999999999998mm\'', ID=7026)
+		Map(V='D=\'0.59999999999999998mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6870)
+		Map(V='D=\'0.5mm\'', ID=6959)
+		Map(V='D=\'0.5mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6867)
+		Map(V='D=\'0.69999999999999996mm\'', ID=7027)
+		Map(V='D=\'0.69999999999999996mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6872)
+		Map(V='D=\'0.80000000000000004mm\'', ID=7028)
+		Map(V='D=\'0.80000000000000004mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6874)
+		Map(V='D=\'0.90000000000000002mm\'', ID=7029)
+		Map(V='D=\'0.90000000000000002mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6876)
+		Map(V='D=\'1.1000000000000001mm\'', ID=7030)
+		Map(V='D=\'1.1000000000000001mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6878)
+		Map(V='D=\'1.2mm\'', ID=7031)
+		Map(V='D=\'1.2mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6880)
+		Map(V='D=\'1.3999999999999999mm\'', ID=7033)
+		Map(V='D=\'1.3999999999999999mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6884)
+		Map(V='D=\'1.3mm\'', ID=7032)
+		Map(V='D=\'1.3mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6882)
+		Map(V='D=\'1.5mm\'', ID=7034)
+		Map(V='D=\'1.5mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6886)
+		Map(V='D=\'1mm\'', ID=6889)
+		Map(V='D=\'1mm\' dis=\'1mm\'', ID=6892)
+		Map(V='D=\'1mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\'', ID=6825)
+		Map(V='D=\'2.5mm\'', ID=7186)
+		Map(V='D=\'2mm\'', ID=7123)
+		Map(V='D=\'3.5mm\'', ID=7189)
+		Map(V='D=\'3mm\'', ID=7124)
+		Map(V='D=\'4mm\'', ID=7125)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=7186, Ver=7382, Dir='DV7186_V7382.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=54
+	$begin 'NextAssemVersionID'
+		NextUniqueID=55
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=53
+			VIDMap('D=\'0.10000000000000001mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7018, 'D=\'0.20000000000000001mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7021, 'D=\'0.29999999999999999mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7023, 'D=\'0.40000000000000002mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7025, 'D=\'0.59999999999999998mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6871, 'D=\'0.5mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6868, 'D=\'0.69999999999999996mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6873, 'D=\'0.80000000000000004mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6875, 'D=\'0.90000000000000002mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6877, 'D=\'1.1000000000000001mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6879, 'D=\'1.2mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6881, 'D=\'1.3999999999999999mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6885, 'D=\'1.3mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6883, 'D=\'1.5mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6887, 'D=\'1mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 6842, 'D=\'2.5mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7187, 'D=\'2mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7185, 'D=\'3.5mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7190, 'D=\'3mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7188, 'D=\'4mm\' Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7182, 'Lp=\'3.1549999999999998mm\' Wp=\'3.1549999999999998mm\' Wt=\'0.65000000000000002mm\'', 7380)
+			DM(VID=7380, Ver=53, Dir='NDV7380_V53.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=7186, Ver=7382, Dir='DV7186_MI0_V7382.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=0
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=1574, Instance=\'SetupDefinition\', Solution=-1, VersionID=7382)'='SolutionBlock16'
+	'SolutionKey(SimSetup=1574, Instance=\'SolutionDefinition\', Solution=1791, VersionID=7382)'='SolutionBlock14'
+	'SolutionKey(SimSetup=1574, Instance=\'SolutionDefinition\', Solution=1792, VersionID=7382)'='SolutionBlock15'
+$end 'BlockMapName'
+$begin 'SolutionBlock14'
+	SolutionName='AdaptivePass'
+	SolutionID=1791
+	V=7382
+	$begin 'States'
+		F(VID=7186, Ver=7382)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(17000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=7186, Ver=7382, File='DV7186_SOL1791_M1_V7382.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=7186, Ver=7382, File='DV7186_SOL1791_M2_V7382.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=7186, Ver=7382, File='DV7186_SOL1791_M3_V7382.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=7186, Ver=7382, File='DV7186_SOL1791_M4_V7382.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=7186, Ver=7382, File='DV7186_SOL1791_M5_V7382.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock14'
+$begin 'SolutionBlock15'
+	SolutionName='LastAdaptive'
+	SolutionID=1792
+	V=7382
+	$begin 'States'
+		F(VID=7186, Ver=7382)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(17000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=7186, Ver=7382, File='DV7186_SOL1792_M0_V7382.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(6847, 17000000000)
+		$begin 'DataMap'
+			VID=7186
+			Ver=7382
+			F(DblID=6847, Dir='DV7186_S1792_V7382_F6847/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock15'
+$begin 'SolutionBlock16'
+	SimSetupID=1574
+	SimSetupName='Setup1'
+	VersionID=7382
+	$begin 'EmConvergenceData'
+		EmConv(VID=7186, Ver=7382, EmConv='DV7186_S1574_V7382.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=5
+	$begin 'CurrMeshes'
+		M(VID=7186, Ver=7382, Dir='DV7186_S1574_V7382.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=54
+	$begin 'NextAssemVersionID'
+		NextUniqueID=55
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=5
+			ADP(VID=7186, Ver=7382, Dir='DV7186_S1574_ADP5_V7382.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=7186, Ver=7382, File='DV7186_S1574_SD1_V7382.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=7186, Ver=7382, File='DV7186_S1574_SD2_V7382.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=7186, Ver=7382, File='DV7186_S1574_SD3_V7382.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			SU(VID=7186, Ver=7382, File='DV7186_S1574_SD4_V7382.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			SU(VID=7186, Ver=7382, File='DV7186_S1574_SD5_V7382.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=7186, Ver=7382, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=7186, Ver=7382, P=5)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=7186, Ver=7382, File='DV7186_S1574_V7382.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=7186, Ver=7382, Dir='DV7186_S1574_MI0_V7382.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock16'
+$begin 'OptimetricsResults'
+$end 'OptimetricsResults'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin '$index$'
+	$begin '$index$'
+		ResponseSurfaceCache(pos=9059, lin=213, lvl=0)
+		BlockMapName(pos=5450, lin=69, lvl=0)
+		SolutionBlock14(pos=5852, lin=75, lvl=0)
+		SolutionBlock15(pos=6781, lin=116, lvl=0)
+		SolutionBlock16(pos=7466, lin=149, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		OptimetricsResults(pos=9005, lin=211, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=9141, lin=216, lvl=0)
+	$end '$index$'
+$end '$index$'

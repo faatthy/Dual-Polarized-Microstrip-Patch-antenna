@@ -1,0 +1,163 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002023, month=000000000012, day=000000000023, hour=000000000000, min=000000000038, sec=000000000036)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000014741, lin=000000000141, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock136'
+	SimSetupID=168
+	SimSetupName='LinearFrequency'
+	VersionID=174
+	DefaultSol=167
+$end 'SolutionBlock136'
+$begin 'SolutionBlock137'
+	SolutionName='LinearFrequency'
+	SolutionID=167
+	V=174
+	$begin 'States'
+		F(VID=175, Ver=174)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	AlterName=''
+$end 'SolutionBlock137'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=168, Instance=\'C_Capa=\\\'0.014999999999999999pF\\\' L_inductor=\\\'5.8431999999999998e-09H\\\' R_Loss=\\\'11.398906499999999ohm\\\' R_radiation=\\\'48.5ohm\\\' R_S_parameter_Response=\\\'401.22759592063505\\\'\', Solution=167, VersionID=174)'='SolutionBlock135'
+	'SolutionKey(SimSetup=168, Instance=\'SetupDefinition\', Solution=-1, VersionID=174)'='SolutionBlock136'
+	'SolutionKey(SimSetup=168, Instance=\'SolutionDefinition\', Solution=167, VersionID=174)'='SolutionBlock137'
+$end 'BlockMapName'
+$begin 'SolutionBlock135'
+	VariationDataID=-1
+	File='DV175_S167_V174.cir'
+$end 'SolutionBlock135'
+$begin 'SolutionBlock1'
+	ProductName='Circuit Design'
+	CircuitName='Circuit1'
+	VersionID=174
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=176
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=14)
+		Map(V='C_Capa=\'0.010999999999999999pF\' L_inductor=\'7.9680000000000006e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=91)
+		Map(V='C_Capa=\'0.012999999999999999pF\' L_inductor=\'6.7421538461538454e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=93)
+		Map(V='C_Capa=\'0.012pF\' L_inductor=\'7.3039999999999996e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=92)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'10.082744099999999ohm\' R_radiation=\'42.899999999999999ohm\'', ID=163)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'10.106247ohm\' R_radiation=\'43ohm\'', ID=120)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'10.341275999999999ohm\' R_radiation=\'44ohm\'', ID=121)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'10.576305ohm\' R_radiation=\'45ohm\'', ID=122)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'10.811333999999999ohm\' R_radiation=\'46ohm\'', ID=123)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.046362999999999ohm\' R_radiation=\'47ohm\'', ID=124)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.281392ohm\' R_radiation=\'48ohm\'', ID=125)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.398906499999999ohm\' R_radiation=\'48.5ohm\'', ID=101)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.398906499999999ohm\' R_radiation=\'48.5ohm\' R_S_parameter_Response=\'401.22759592063505\'', ID=175)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=95)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.516420999999999ohm\' R_radiation=\'49ohm\'', ID=126)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.75145ohm\' R_radiation=\'50ohm\'', ID=127)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'11.986478999999999ohm\' R_radiation=\'51ohm\'', ID=128)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'12.221508ohm\' R_radiation=\'52ohm\'', ID=129)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'12.456536999999999ohm\' R_radiation=\'53ohm\'', ID=130)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'12.691566ohm\' R_radiation=\'54ohm\'', ID=131)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'12.926594999999999ohm\' R_radiation=\'55ohm\'', ID=132)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'13.161624ohm\' R_radiation=\'56ohm\'', ID=133)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'13.396652999999999ohm\' R_radiation=\'57ohm\'', ID=134)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'13.631682ohm\' R_radiation=\'58ohm\'', ID=135)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'13.866710999999999ohm\' R_radiation=\'59ohm\'', ID=136)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'14.101739999999999ohm\' R_radiation=\'60ohm\'', ID=137)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'14.336768999999999ohm\' R_radiation=\'61ohm\'', ID=138)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'14.571797999999999ohm\' R_radiation=\'62ohm\'', ID=139)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'14.806826999999998ohm\' R_radiation=\'63ohm\'', ID=140)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'15.041855999999999ohm\' R_radiation=\'64ohm\'', ID=141)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'15.276885ohm\' R_radiation=\'65ohm\'', ID=142)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'15.511913999999999ohm\' R_radiation=\'66ohm\'', ID=143)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'15.746943ohm\' R_radiation=\'67ohm\'', ID=144)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'15.981971999999999ohm\' R_radiation=\'68ohm\'', ID=145)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'16.217001ohm\' R_radiation=\'69ohm\'', ID=146)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'16.452030000000001ohm\' R_radiation=\'70ohm\'', ID=147)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'16.687058999999998ohm\' R_radiation=\'71ohm\'', ID=148)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'16.922087999999999ohm\' R_radiation=\'72ohm\'', ID=149)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'17.157117ohm\' R_radiation=\'73ohm\'', ID=150)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'17.392146ohm\' R_radiation=\'74ohm\'', ID=151)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'17.627174999999998ohm\' R_radiation=\'75ohm\'', ID=152)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'5.8757250000000001ohm\' R_radiation=\'25ohm\'', ID=102)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'6.110754ohm\' R_radiation=\'26ohm\'', ID=103)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'6.345783ohm\' R_radiation=\'27ohm\'', ID=104)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'6.5808119999999999ohm\' R_radiation=\'28ohm\'', ID=105)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'6.8158409999999998ohm\' R_radiation=\'29ohm\'', ID=106)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'7.0508699999999997ohm\' R_radiation=\'30ohm\'', ID=107)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'7.2858989999999997ohm\' R_radiation=\'31ohm\'', ID=108)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'7.5209279999999996ohm\' R_radiation=\'32ohm\'', ID=109)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'7.7559569999999995ohm\' R_radiation=\'33ohm\'', ID=110)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'7.9909859999999995ohm\' R_radiation=\'34ohm\'', ID=111)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'8.2260150000000003ohm\' R_radiation=\'35ohm\'', ID=112)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'8.4610439999999993ohm\' R_radiation=\'36ohm\'', ID=113)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'8.6960730000000002ohm\' R_radiation=\'37ohm\'', ID=114)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'8.9311019999999992ohm\' R_radiation=\'38ohm\'', ID=115)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.166131ohm\' R_radiation=\'39ohm\'', ID=116)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.4011599999999991ohm\' R_radiation=\'40ohm\'', ID=117)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.6361889999999999ohm\' R_radiation=\'41ohm\'', ID=118)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.8712179999999989ohm\' R_radiation=\'42ohm\'', ID=119)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9182237999999998ohm\' R_radiation=\'42.200000000000003ohm\'', ID=164)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9264498149999998ohm\' R_radiation=\'42.234999999999999ohm\'', ID=166)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9276249599999993ohm\' R_radiation=\'42.240000000000002ohm\'', ID=165)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.92997525ohm\' R_radiation=\'42.25ohm\'', ID=157)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9306803370000001ohm\' R_radiation=\'42.253ohm\'', ID=160)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9311503949999995ohm\' R_radiation=\'42.255000000000003ohm\'', ID=158)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9346758299999998ohm\' R_radiation=\'42.270000000000003ohm\'', ID=159)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9417266999999985ohm\' R_radiation=\'42.299999999999997ohm\'', ID=161)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9652295999999989ohm\' R_radiation=\'42.399999999999999ohm\'', ID=162)
+		Map(V='C_Capa=\'0.014999999999999999pF\' L_inductor=\'5.8431999999999998e-09H\' R_Loss=\'9.9887324999999993ohm\' R_radiation=\'42.5ohm\'', ID=156)
+		Map(V='C_Capa=\'0.014pF\' L_inductor=\'6.2605714285714276e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=94)
+		Map(V='C_Capa=\'0.016pF\' L_inductor=\'5.4779999999999995e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=96)
+		Map(V='C_Capa=\'0.017000000000000001pF\' L_inductor=\'5.1557647058823521e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=97)
+		Map(V='C_Capa=\'0.017999999999999999pF\' L_inductor=\'4.8693333333333331e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=98)
+		Map(V='C_Capa=\'0.019pF\' L_inductor=\'4.6130526315789474e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=99)
+		Map(V='C_Capa=\'0.01pF\' L_inductor=\'8.7647999999999985e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=90)
+		Map(V='C_Capa=\'0.01pF\' L_inductor=\'8764pH\' R_Loss=\'0.5ohm\' R_radiation=\'30ohm\'', ID=77)
+		Map(V='C_Capa=\'0.01pF\' L_inductor=\'8764pH\' R_Loss=\'0.5ohm\' R_radiation=\'49ohm\'', ID=76)
+		Map(V='C_Capa=\'0.01pF\' L_inductor=\'8764pH\' R_Loss=\'1.5ohm\' R_radiation=\'48.5ohm\'', ID=80)
+		Map(V='C_Capa=\'0.01pF\' L_inductor=\'8764pH\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=84)
+		Map(V='C_Capa=\'0.01pF\' L_inductor=\'8764pH\' R_Loss=\'1ohm\' R_radiation=\'49ohm\'', ID=75)
+		Map(V='C_Capa=\'0.02pF\' L_inductor=\'4.3823999999999993e-09H\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=100)
+		Map(V='C_Capa=\'0.10000000000000001pF\' L_inductor=\'8.7639999999999993pH\' R_Loss=\'1.5ohm\' R_radiation=\'48.5ohm\'', ID=81)
+		Map(V='C_Capa=\'100pF\' L_inductor=\'0.87639999999999996pH\' R_Loss=\'1ohm\' R_radiation=\'49ohm\'', ID=71)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'0.59999999999999998ohm\' R_radiation=\'49ohm\'', ID=62)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'0.5ohm\' R_radiation=\'49ohm\'', ID=61)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'0.69999999999999996ohm\' R_radiation=\'49ohm\'', ID=63)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'0.80000000000000004ohm\' R_radiation=\'49ohm\'', ID=64)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'0.90000000000000002ohm\' R_radiation=\'49ohm\'', ID=65)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'1.1000000000000001ohm\' R_radiation=\'49ohm\'', ID=66)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'1.2ohm\' R_radiation=\'49ohm\'', ID=67)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'1.3999999999999999ohm\' R_radiation=\'49ohm\'', ID=69)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'1.3ohm\' R_radiation=\'49ohm\'', ID=68)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'1.5ohm\' R_radiation=\'49ohm\'', ID=70)
+		Map(V='C_Capa=\'1pF\' L_inductor=\'87.640000000000001pH\' R_Loss=\'1ohm\' R_radiation=\'49ohm\'', ID=60)
+		Map(V='C_Capa=\'8764pF\' L_inductor=\'0.01pH\' R_Loss=\'11.4ohm\' R_radiation=\'48.5ohm\'', ID=85)
+	$end 'VariationIDs'
+$end 'SolutionBlock1'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin '$index$'
+	$begin '$index$'
+		ResponseSurfaceCache(pos=14659, lin=138, lvl=0)
+		SolutionBlock135(pos=1364, lin=28, lvl=0)
+		SolutionBlock1(pos=1462, lin=32, lvl=0)
+		BlockMapName(pos=790, lin=22, lvl=0)
+		SolutionBlock137(pos=499, lin=7, lvl=0)
+		SolutionBlock136(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=14741, lin=141, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                  

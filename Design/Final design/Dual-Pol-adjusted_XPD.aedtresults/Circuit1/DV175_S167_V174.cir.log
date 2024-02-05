@@ -1,0 +1,18 @@
+(status): Nexxim version: 2023.2.0 WIN64, build time: May 16 2023, 23:37:21
+
+(status): Analyzing D:/Assignments/3) Third year/Assignements 3-1/Anttena/Design/Final design/Dual-Pol-adjusted_XPD.aedtresults/Circuit1/temp/DV175_S167_V174.cir.
+(info): Processing circuit for new analysis.
+omp(status): Requested number of threads in UI setting is 4
+circuit_details(status): Total device types: 4
+device type                                       number of devices
+----------------------------------------------------------------------
+capacitor                                         1
+inductor                                          1
+port_impedance                                    1
+resistor                                          3
+(status): License checkout took 0.342 seconds.
+(info): Starting analysis type LNA.
+analysis:dc(status): Total DC newton iterations = 4, DC conv = 1.
+(status): LNA cpu time = 0.005
+(info): Simulation succeeded. Total simulator time: 0:00:00
+(status): Start Time:  12/23/2023 00:38:23, End Time:  12/23/2023 00:38:24, Host LAPTOP-9FL2NA60, 
