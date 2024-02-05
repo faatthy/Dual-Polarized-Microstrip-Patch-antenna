@@ -19,6 +19,11 @@ achieve high isolation between the two ports to increase the XPD.
 # Antenna Layout
 ![image](https://github.com/faatthy/Dual-Polarized-Microstrip-Patch-antenna/assets/110846097/33d3d963-0b62-4843-8304-b6711b335164)
 ## Results
-*
+* Return Loss = -47dB
+* Input Impedence = 49.5Ω
+* Gain = 5.3dB
+* Radiation Efficiency = 85%
+* Bandwidth = 10%
+* XPD = 30dB
 
 
